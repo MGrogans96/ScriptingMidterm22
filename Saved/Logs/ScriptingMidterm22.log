@@ -889,3 +889,48 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.25-18.09.02:433][  1]LogAssetRegistry: Asset discovery search completed in 9.7367 seconds
 [2022.10.25-18.09.02:450][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000249 seconds (updated 0 objects)
 [2022.10.25-18.09.02:788][  2]LogSlate: Took 0.000906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.25-18.45.12:969][862]LogAudioMixer: Resetting audio stream to device id 
+[2022.10.25-18.45.12:986][862]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.25-18.45.12:987][862]LogAudioMixer: Display: 1: FrontRight
+[2022.10.25-20.20.33:044][877]LogHttp: Warning: 000002433EA64F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEB6E5C4-4BFD-9FA3-96E4-D396F2792BC2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=dcd2ec5b4539d7ba868a7f9cacf938ff%7C72441017125e405b8d32061fef78f404%7C5bd7f25f-915d-4911-ab58-a914bbf549a1&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.10.25-20.20.33:048][877]LogHttp: Warning: 000002433EA64F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.10.25-20.20.33:050][877]LogHttp: Warning: 000002433EA64F00: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2022.10.25-20.20.33:050][877]LogHttp: Warning: 000002433EA64F00: libcurl info message cache 1 (Closing connection 0)
+[2022.10.25-20.20.33:050][877]LogHttp: Warning: 000002433EA64F00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.10.25-20.20.33:050][877]LogHttp: Warning: 000002433EA64F00: libcurl info message cache 3 (Closing connection 1)
+[2022.10.25-20.20.33:080][878]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEB6E5C4-4BFD-9FA3-96E4-D396F2792BC2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=dcd2ec5b4539d7ba868a7f9cacf938ff%7C72441017125e405b8d32061fef78f404%7C5bd7f25f-915d-4911-ab58-a914bbf549a1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.10.25-20.21.47:444][303]LogUObjectHash: Compacting FUObjectHashTables data took  19.74ms
+[2022.10.25-20.21.47:640][303]LogSlate: Took 0.002253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.25-20.21.47:907][303]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level1.Level1
+[2022.10.25-20.21.47:910][303]Cmd: MAP LOAD FILE="../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.25-20.21.47:914][303]LightingResults: New page: Lighting Build
+[2022.10.25-20.21.47:917][303]LoadErrors: New page: Loading map: Level1.umap
+[2022.10.25-20.21.47:964][303]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-20.21.47:971][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-20.21.47:978][303]MapCheck: New page: Map Check
+[2022.10.25-20.21.47:979][303]LightingResults: New page: Lighting Build
+[2022.10.25-20.21.47:994][303]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.25-20.21.48:054][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.10.25-20.21.48:065][303]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2022.10.25-20.21.48:273][303]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2022.10.25-20.21.48:273][303]LogAIModule: Creating AISystem for world Level1
+[2022.10.25-20.21.48:304][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.10.25-20.21.48:319][303]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.25-20.21.48:321][303]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.683ms to complete.
+[2022.10.25-20.21.48:321][303]LogFileHelpers: Loading map 'Level1' took 0.413
+[2022.10.25-20.22.02:198][125]LogActorFactory: Actor Factory created Cube
+[2022.10.25-20.22.04:640][271]LogActorFactory: Actor Factory created Cube
+[2022.10.25-20.22.49:589][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.10.25-20.22.49:631][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.25-20.22.49:644][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.10.25-20.22.49:685][984]LogSavePackage: Moving '../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Saved/Level163168A1B472CA4A0833550A874AB229E.tmp' to '../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Content/Level1.umap'
+[2022.10.25-20.22.49:700][984]LogFileHelpers: Saving map 'Level1' took 0.071
+[2022.10.25-20.22.49:719][984]AssetCheck: New page: Asset Save: Level1
+[2022.10.25-20.22.49:719][984]LogContentValidation: Display: Validating World /Game/Level1.Level1
+[2022.10.25-20.24.09:177][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.10.25-20.24.09:200][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.25-20.24.09:208][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.10.25-20.24.09:220][685]LogSavePackage: Moving '../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Saved/Level175C7CEF74D6DA718025E7D91B1414E3B.tmp' to '../../../../../../Users/maxgr/OneDrive/Documents/Unreal Projects/ScriptingMidterm22/Content/Level1.umap'
+[2022.10.25-20.24.09:230][685]LogFileHelpers: Saving map 'Level1' took 0.031
+[2022.10.25-20.24.09:246][685]AssetCheck: New page: Asset Save: Level1
+[2022.10.25-20.24.09:246][685]LogContentValidation: Display: Validating World /Game/Level1.Level1
