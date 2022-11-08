@@ -18281,3 +18281,168 @@ AI_C.ReceiveBeginPlay
 [2022.11.08-22.20.11:606][390]Cmd: MAP CHECK NOTIFYRESULTS
 [2022.11.08-22.20.11:606][390]MapCheck: New page: MovementAndMelee - Nov 8, 2022, 12:20:11 PM
 [2022.11.08-22.20.11:607][390]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.478ms to complete.
+[2022.11.08-22.20.36:087][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mechanics/MovementAndMelee" FILE="../../../../Game Genre/Git/ScriptingMidterm22/Content/Mechanics/MovementAndMelee.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.08-22.20.36:119][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.11.08-22.20.36:189][463]LogSavePackage: Moving '../../../../Game Genre/Git/ScriptingMidterm22/Saved/MovementAndMeleeEF91056D4FFA5504B21BE987D43D21BF.tmp' to '../../../../Game Genre/Git/ScriptingMidterm22/Content/Mechanics/MovementAndMelee.umap'
+[2022.11.08-22.20.36:205][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mechanics/MovementAndMelee_BuiltData" FILE="../../../../Game Genre/Git/ScriptingMidterm22/Content/Mechanics/MovementAndMelee_BuiltData.uasset" SILENT=true
+[2022.11.08-22.20.36:235][463]LogSavePackage: Moving '../../../../Game Genre/Git/ScriptingMidterm22/Saved/MovementAndMelee_BuiltData7640669B4C462E8C584DA4AB8E0E9095.tmp' to '../../../../Game Genre/Git/ScriptingMidterm22/Content/Mechanics/MovementAndMelee_BuiltData.uasset'
+[2022.11.08-22.20.36:259][463]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.08-22.20.36:259][463]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Mechanics/MovementAndMelee_BuiltData.MovementAndMelee_BuiltData
+[2022.11.08-22.20.36:259][463]LogContentValidation: Display: Validating World /Game/Mechanics/MovementAndMelee.MovementAndMelee
+[2022.11.08-22.20.51:564][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.11.08-22.21.00:043][946]LogMainFrame: Project requires temp target (ApexDestruction plugin is enabled)
+[2022.11.08-22.21.00:044][946]LogLauncherProfile: Unable to use promoted target - ../../../../Game Genre/Git/ScriptingMidterm22/Binaries/Win64/UE4Game.target does not exist.
+[2022.11.08-22.21.00:579][946]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2022.11.08-22.21.00:646][950]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject="C:/Users/jjones4/Desktop/Game Genre/Git/ScriptingMidterm22/ScriptingMidterm22.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="C:/Users/jjones4/Desktop/Game Genre/Git/ScriptingMidterm22/ScriptingMidterm22.uproject" -cook -stage -archive -archivedirectory=C:/Users/jjones4/Desktop/MidtermProject -package -ue4exe=C:\Users\jjones4\Desktop\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -clientconfig=Development -utf8output
+[2022.11.08-22.21.02:455][ 55]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\ScriptingMidterm22.uproject
+[2022.11.08-22.21.03:155][ 97]UATHelper: Packaging (Windows (64-bit)): ScriptingMidterm22.uproject requires a temporary target.cs to be generated (ApexDestruction plugin is enabled)
+[2022.11.08-22.21.03:991][147]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2022.11.08-22.21.04:027][149]UATHelper: Packaging (Windows (64-bit)): Running: C:\Users\jjones4\Desktop\UE_4.27\Engine\Binaries\DotNET\UnrealBuildTool.exe ScriptingMidterm22 Win64 Development -Project="C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\ScriptingMidterm22.uproject"  "C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\ScriptingMidterm22.uproject" -NoUBTMakefiles  -remoteini="C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22" -skipdeploy -Manifest="C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\jjones4\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Users+jjones4+Desktop+UE_4.27\UBT-ScriptingMidterm22-Win64-Development.txt"
+[2022.11.08-22.21.06:875][298]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22).
+[2022.11.08-22.21.10:896][539]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\Intermediate\Build\Manifest.xml
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   Building ScriptingMidterm22...
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade]
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ScriptingMidterm22.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2022.11.08-22.21.11:067][549]UATHelper: Packaging (Windows (64-bit)):   [Upgrade]
+[2022.11.08-22.21.11:095][551]UATHelper: Packaging (Windows (64-bit)):   Building 4 actions with 12 processes...
+[2022.11.08-22.21.16:984][903]UATHelper: Packaging (Windows (64-bit)):     [1/4] SharedPCH.Core.cpp
+[2022.11.08-22.21.17:731][946]UATHelper: Packaging (Windows (64-bit)):     [2/4] ScriptingMidterm22.cpp
+[2022.11.08-22.21.33:437][315]UATHelper: Packaging (Windows (64-bit)):     [3/4] ScriptingMidterm22.exe
+[2022.11.08-22.21.33:437][315]UATHelper: Packaging (Windows (64-bit)):        Creating library C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\Binaries\Win64\ScriptingMidterm22.lib and object C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\Binaries\Win64\ScriptingMidterm22.exp
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)):     [4/4] ScriptingMidterm22.target
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)):   Total time in Parallel executor: 22.52 seconds
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 28.82 seconds
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): Took 29.6656794s to run UnrealBuildTool.exe, ExitCode=0
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\ScriptingMidterm22.uproject
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Users\jjones4\Desktop\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.11.08-17.21.33.txt
+[2022.11.08-22.21.33:774][316]UATHelper: Packaging (Windows (64-bit)): Running: C:\Users\jjones4\Desktop\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe "C:\Users\jjones4\Desktop\Game Genre\Git\ScriptingMidterm22\ScriptingMidterm22.uproject" -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog=C:\Users\jjones4\Desktop\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.11.08-17.21.33.txt -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2022.11.08-22.21.38:131][329]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.11.08-22.21.38:132][329]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.11.08-22.21.38:132][329]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: ScriptingMidterm22
+[2022.11.08-22.21.40:816][337]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2022.11.08-22.21.42:505][342]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17018806272 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.08-22.21.43:173][344]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2022.11.08-22.21.43:508][345]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.08-22.21.43:843][346]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.11.08-22.21.45:530][351]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.08-22.21.46:874][355]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.08-22.21.46:874][355]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jjones4/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.11.08-22.21.46:875][355]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.08-22.21.47:209][356]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/jjones4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.40ms. RandomReadSpeed=96.87MBs, RandomWriteSpeed=37.09MBs. Assigned SpeedClass 'Local'
+[2022.11.08-22.21.52:272][371]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.08-22.21.52:272][371]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.08-22.21.53:962][376]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.11.08-22.21.53:962][376]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2022.11.08-22.21.53:962][376]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2022.11.08-22.21.54:601][378]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2022.11.08-22.21.54:602][378]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Inisetting is different for  Game /Script/UnrealEd.ProjectPackagingSettings StagingDirectory 0, value (Path="C:/Users/jjones4/Desktop/MidtermProject") != (Path="C/Users/jjones4/Desktop/Midterm Project") invalidating cook
+[2022.11.08-22.21.54:602][378]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Game:/Script/UnrealEd.ProjectPackagingSettings
+[2022.11.08-22.21.54:602][378]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2022.11.08-22.21.54:602][378]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.038 seconds for platforms WindowsNoEditor
+[2022.11.08-22.21.56:994][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../Game Genre/Git/ScriptingMidterm22/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2022.11.08-22.21.56:995][385]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.11.08-22.21.58:354][389]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 417 Total 417
+[2022.11.08-22.21.58:354][389]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=212, VirtualMemory=580MiB
+[2022.11.08-22.21.59:372][392]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 193 Packages Remain 416 Total 609
+[2022.11.08-22.21.59:372][392]UATHelper: Packaging (Windows (64-bit)):   LogProperty: Warning: Serialized Class /Script/Engine.Blueprint for a property of Class /Script/Engine.SkeletalMesh. Reference will be nullptred.
+[2022.11.08-22.21.59:372][392]UATHelper: Packaging (Windows (64-bit)):       Property = SoftObjectProperty /Script/Engine.AnimSequence:RetargetSourceAsset
+[2022.11.08-22.21.59:372][392]UATHelper: Packaging (Windows (64-bit)):       Item = Blueprint /Game/Characters/Player__Blueprint.Player__Blueprint
+[2022.11.08-22.21.59:373][392]PackagingResults: Warning: Serialized Class /Script/Engine.Blueprint for a property of Class /Script/Engine.SkeletalMesh. Reference will be nullptred.
+[2022.11.08-22.22.01:021][397]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Black2 in PCD3D_SM5, Default, SM5 (DDC key hash: A79270E0C6E01D515AB0AB3C5F93BCAD22410171), compiling.
+[2022.11.08-22.22.01:022][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.11.08-22.22.01:394][398]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 21 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.01:394][398]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 244 Packages Remain 373 Total 617
+[2022.11.08-22.22.03:831][469]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 336 Packages Remain 296 Total 632
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture310E58554010446A08107499F126CE3D (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128X128)
+[2022.11.08-22.22.05:100][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128X128)
+[2022.11.08-22.22.05:101][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128X128)
+[2022.11.08-22.22.05:101][497]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128X128)
+[2022.11.08-22.22.05:228][500]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 400 Packages Remain 232 Total 632
+[2022.11.08-22.22.06:761][532]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureD6C57B644F03DADF4F2699848FAEA3C3 (BGRA8, 128X128)
+[2022.11.08-22.22.06:761][532]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture8D91C9AE4C6B8D628CDA3C848426284A (BGRA8, 128X128)
+[2022.11.08-22.22.06:856][533]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF60039EB445BD313D9FB3B83A10248ED (BGRA8, 128X128)
+[2022.11.08-22.22.08:597][586]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 495 Packages Remain 153 Total 648
+[2022.11.08-22.22.08:998][595]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Seethrough in PCD3D_SM5, Default, SM5 (DDC key hash: A4631F16DFD5A88D627BA1372EEB5462624CA42B), compiling.
+[2022.11.08-22.22.09:357][608]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 40 shader compile jobs with 'Low' priority
+[2022.11.08-22.22.09:357][608]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.09:357][608]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for GlassSeethrough1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9043A26DA35A7BE3A608CAFE8761271796A4CDCE), compiling.
+[2022.11.08-22.22.09:514][612]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 40 shader compile jobs with 'Low' priority
+[2022.11.08-22.22.09:546][613]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for WallForGameTexture_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1B7983C445F0A16A8C643345A4966B76F06842B0), compiling.
+[2022.11.08-22.22.09:669][615]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.11.08-22.22.10:514][631]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 545 Packages Remain 103 Total 648
+[2022.11.08-22.22.10:618][632]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.11:107][640]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 611 Packages Remain 37 Total 648
+[2022.11.08-22.22.11:308][649]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Wall in PCD3D_SM5, Default, SM5 (DDC key hash: 17F990E4DAF786C0E6660E0EA5EA8C6CF7389887), compiling.
+[2022.11.08-22.22.11:372][652]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.11.08-22.22.13:027][664]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.13:028][664]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 643 Packages Remain 5 Total 648
+[2022.11.08-22.22.18:994][805]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.18:994][805]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.18:994][805]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.18:994][805]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 643 Packages Remain 5 Total 648
+[2022.11.08-22.22.22:389][898]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.22:389][898]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.22:389][898]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 644 Packages Remain 4 Total 648
+[2022.11.08-22.22.27:029][ 33]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 644 Packages Remain 4 Total 648
+[2022.11.08-22.22.29:005][ 88]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=651, VirtualMemory=1450MiB
+[2022.11.08-22.22.32:988][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 644 Packages Remain 4 Total 648
+[2022.11.08-22.22.38:995][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.38:995][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Low' priority
+[2022.11.08-22.22.38:995][384]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 644 Packages Remain 4 Total 648
